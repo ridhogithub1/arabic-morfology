@@ -1,12 +1,20 @@
-# React + Vite
+# Arabic Morphology
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyek ini terdiri dari dua bagian:
+- **Backend**: Flask (Python) → [Repo Backend](https://github.com/ridhogithub1/arabic-morfologi-backend.git)
+- **Frontend**: React.js → repo ini
 
-Currently, two official plugins are available:
+## 🚀 Persyaratan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sebelum menjalankan proyek, pastikan sudah terinstall:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/en/download/) (Cek dengan: `node -v`)
+- [Python](https://www.python.org/downloads/) (Cek dengan: `python --version`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Cara Menjalankan
+
+### 1. Clone Repository
+```bash
+# Clone frontend
+git clone https://github.com/ridhogithub1/arabic-morfology.git
+cd arabic-morfology
